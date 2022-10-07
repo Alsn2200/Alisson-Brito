@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0 ;
+    
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+   font-family:  'Poppinsregular', sans-serif;
+    background-color: rgb(34, 34, 34);
+    color:#fff;
+    
+}
+.main{
+    display: block;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.main-title-login{
+    font-size: 50px;
+    margin-top: 1%;
+    font-weight: 100;
+}
+
+#logo{
+    line-height: 25px;
+    color:cadetblue;
+    margin-right: 600px;
+    font-size: 18px;
+}
+#logo1{
+   
+    line-height: 25px;
+    color:cadetblue;
+    margin-left: 300px; 
+     
+}
+.turismo{
+    margin-left: 100px;
+    color: gold;
+}
+.caixa{
+    display: block;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    border-top: solid 3px gold ;
+    border-right: solid 3px white;
+    border-bottom: solid 3px white ;
+    border-left: solid 3px gold ;
+    border-radius: 30px;
+    margin-top: 2%;
+}
+.itens-main{
+    padding: 2%;
+    
+}
+.login{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: gold;
+    font-weight: 200;
+}
+.letras{        
+    color: gold;
+}
+.subtitulo-login{
+    font-size: 20px;
+  
+}
+.subtitulo-senha{
+    font-size: 20px;
+  
+}
+.senha{
+    font-size: 40px;
+    color: gold;
+    font-weight: 200;
+    margin-top: 2%;
+}
+
+.input-form{
+    width: 70%;
+    height: 50px;
+    text-align:  center;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+.entrar{
+    display: block;
+    height: 50px;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: gold;
+    border-radius: 50px;    
+    cursor: pointer;
+    font-size: 15px;  
+    font-weight:550;
+    
+}
+.entrar:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.opc-cadastro{
+margin-top: 20px;
+font-size: 17px;
+
+}
+
+.redefinir-senha{
+    text-decoration: none;
+    color: gold;
+    margin-right: 10px;
+}
+.cadastrar{
+    text-decoration: none;
+    color: gold;
+    font-weight: bold;
+}
+.cadastrar:hover{
+    transform: scale(1.1);
+    font-size: 19px;
+    transition: 0.2s;
+}

@@ -1,0 +1,470 @@
+*{
+padding: 0;
+margin: 0 ;
+
+}    
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+   font-family:  'Poppinsregular', sans-serif;
+   font-weight: 500;
+    background-color: rgb(34, 34, 34);
+    color:#fff;
+
+    
+}
+header{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 15px;
+    
+}
+#logo{
+    flex-direction: column;
+    line-height: 30px;
+    color:cadetblue;
+}
+.turismo{
+    margin-left: 70px;
+    color: gold;
+}
+.menu-cabecalho{
+    display: flex;
+}
+.bloco-itens{
+    color: #fff;
+  
+}
+.bloco-itens:hover{
+   color: gold;
+    transition: 0.3s;
+    transform: scale(1.1);
+    
+}
+.itens-cabecalho{
+    display: inline-block;
+    text-decoration: none;
+    margin: 20px;  
+}
+/* ----------------- */
+main{
+   
+    border-top: 2px solid gold; 
+    border-bottom: 2px solid gold;
+}
+
+#titulo-main{
+    text-align: center;
+    margin-top: 20px;
+    color:#fff;
+    font-size: 25px;
+}
+#nome-viagens{
+    color:gold
+}
+/* ----------- */
+.itens-main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.secundarios-main{
+    flex-direction: column;
+    margin-left: 50px;
+    font-size: 25px; 
+    cursor: pointer;
+    text-align: center;    
+}
+
+
+.h2-itens-1{
+    
+    background-color: orange;
+    width: 500px;
+    margin: 20px;
+    border-radius: 50px;
+}
+.h2-itens-2{
+    
+    background-color: cadetblue;
+    width: 500px;
+    margin: 20px;
+    border-radius: 50px;
+}
+.h2-itens-3{
+    background-color: orangered;
+    width: 500px;
+    margin: 20px;
+    border-radius: 50px;
+}
+.h2-itens-4{
+    background-color:darkcyan;
+    width: 500px;
+    margin: 20px;
+    border-radius: 50px;
+}
+.h2-itens-5{
+    background-color: orange;
+    width: 500px;
+    margin: 20px;
+    border-radius: 50px;
+}
+.h2-itens-1:hover{
+  opacity: 0.8;
+  transition: 0.3s;
+  transform: scale(1.1);
+  
+}
+.h2-itens-2:hover{
+  opacity: 0.8;
+  transition: 0.3s;
+  transform: scale(1.1);
+
+}
+.h2-itens-3:hover{
+  opacity: 0.8;
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+.h2-itens-4:hover{
+  opacity: 0.8;
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+.h2-itens-5:hover{
+  opacity: 0.5;
+  transition: 0.2s;
+  transform: scale(1.1);
+}
+.texto-main{
+    padding: 0% 10%;
+    text-align: center;
+  
+    
+    font-size: 18px;
+ 
+}
+.bloco-texto-main{
+    color:#fff;
+    margin-top: 15px;
+}
+.title-texto-main{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+.vindo{
+    color: gold;
+}
+/* ---------- */
+.main-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    
+}
+.itens-main-2{
+    display: flex;
+    flex-direction: row-reverse; 
+    width: 100%;
+    margin: 2% 2%;
+}
+.n-2{
+    text-align: center;
+    display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 30px;
+}
+
+/* ----------- */
+.nome-tipos-1-main,.nome-tipos-2-main,.nome-tipos-3-main,.nome-tipos-4-main,.nome-tipos-5-main,.nome-tipos-6-main{
+height: 350px;
+}
+.nome-tipos-1-main{
+color: #fff;
+width: 40%;
+background-image: url('images/montanhass.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+border: 1px solid gold;
+border-radius: 10px;
+}
+
+.nome-tipos-2-main{
+color: #fff;
+background-size: cover;
+background-repeat: no-repeat;
+width: 40%;
+background-image: url('images/praia.jpg');
+border: 1px solid gold;
+border-radius: 10px;
+}
+.nome-tipos-3-main{
+color: #fff;
+
+width: 40%;
+background-image: url('images/floresta.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+border: 1px solid gold;
+border-radius: 10px;
+}
+.nome-tipos-4-main{
+color: #fff;
+
+width: 40%;
+background-image: url('images/grutass.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+border: 1px solid gold;
+border-radius: 10px;
+}
+.nome-tipos-5-main{
+color: #fff;
+background-size: cover;
+background-repeat: no-repeat;
+width: 40%;
+background-image: url('images/resort.jpg');
+border: 1px solid gold;
+border-radius: 10px;
+
+}
+.nome-tipos-6-main{
+color: #fff;
+width: 40%;
+background-image: url('images/chales.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+border: 1px solid gold;
+border-radius: 10px;
+
+}
+/* -----HOVER */
+.nome-tipos-1-main:hover{
+   transform: scale(1.1);
+    transition: 0.3s;
+   
+}
+.nome-tipos-2-main:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.nome-tipos-3-main:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.nome-tipos-4-main:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.nome-tipos-5-main:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.nome-tipos-6-main:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
+/* ------------------ */
+.nome-tipos-2{
+    text-decoration: none;
+    display: inline-block;
+   padding: 50px;
+   font-size: 40px;
+   color: #fff;
+}
+.nome-tipos-2:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 70%;
+    height: 72%;
+    border-radius: 2%;
+    color: gold;
+    transition: 0.8s;
+}
+
+.texto-main-2{
+    width: 80%;
+    text-align: center;
+    margin-left: 5%;
+
+}
+.titulo-main-2{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+.p-main2{
+    text-align: center;
+  
+    font-size: 18px;
+}
+#viagens{
+    color: gold;
+}
+.img-itens{
+    width: 50px;
+
+}
+/* ------------ */
+.pesquisa{
+    display: flex;
+    text-align: center;
+    padding: 5% 15%;
+    border: none;
+}
+.pesquisa:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.textt{
+    text-align: center;
+    width: 500px;
+    height: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+    border: none;
+}
+.btn-pesquisa{
+    height: 50px;
+    width:150px;
+    border-radius: 50px;
+    background-color: gold;
+    cursor: pointer;
+    border: none;
+    margin-left: 1%;
+}
+
+.form-main{
+    display: block;
+
+
+}
+/* ----- */
+.form-main{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+
+}
+.titulo-form{
+    text-align: center;
+    margin-top: 40px;
+    color:#fff;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+#reserva{
+    color: gold;
+}
+.input-form{
+    text-align: center;
+    width: 20%;
+    height: 50px;
+    text-decoration: none;
+    border-radius: 50px;
+    border: none;
+    margin-bottom: 2%;
+    
+}
+.input-form:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+.lugares{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    text-decoration: none;
+    border-radius: 50px;
+    border: none;
+    margin-bottom: 2%;
+}
+.lugares:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+.date{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    text-decoration: none;
+    border-radius: 50px;
+    border: none;
+    margin-bottom: 2%;
+}
+#botao-form{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    text-decoration: none;
+    border-radius: 50px;
+    border: none;
+    margin-top: 3%;
+    cursor: pointer;
+    background-color: gold;
+}
+#botao-form:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+h4{
+    font-size: 20px;
+    color: #fff;
+}
+.nome{
+    color: gold;
+}
+.sobrenome{
+    color:gold;
+}
+.numero{
+    color: gold;
+}
+.email{
+    color: gold;
+}
+.destino{
+    color: gold;
+}
+.data{
+    color: gold;
+}
+.viagem{
+    color:gold;
+}
+footer{
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+    justify-content: space-between;
+    margin: 1% 3%;
+}
+#logo-footer{
+    line-height: 30px;
+    color:cadetblue;
+}
+.site{
+    color: gold;
+}
+.emaill{
+    color: gold;
+}
+.linkedin{
+    color: gold;
+}
+.contato{
+    color: gold;
+}
+.contatoo:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
